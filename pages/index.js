@@ -1,12 +1,7 @@
+
 import React from "react";
+import styles from "../styles/Home.module.css"
 
-export default class App extends React.Component {
-  constructor (props) {
-    super(props)
-  }
-
-  render() {
-    return <div></div>
-  }
-    
-  }
+export default function Home () {
+  return <div className={styles.body}>asd</div>
+}
